@@ -1,70 +1,89 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Personal Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carl O'Brien - Web Developer</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
+
 <body>
-    <!--Profile Pic and Name Table-->
-    <table cellspacing="20">
-        <tr>
-            <td><img src="images/profile_pic.jpg" alt="profile picture" style="border-radius: 50%;"></td>
-            <td>
-                <h1>Carl O'Brien</h1>
-                <p><em>Just Some Guy</em></p>
-                <p>I'm just trying to get a new job. I'm usually tired.</p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <!--Skills Section-->
-    <h1>Skills</h1>
-    <table cellspacing="20">
-        <tr>
-            <td>
-                iOS Development &#11088;
-                <br>
-                Web Development &#11088;
-            </td>
-            <td>
-                Photography &#11088;
-                <br>
-                Painting &#11088;
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-        <ul>
-            <li>2008 - Graduated NWC</li>
-            <li>2010 - Worked at Terra International School</li>
-            <li>2012 - Developed a heart condition related to stress.</li>
-        </ul>
-    <!--Work Experience-->
-        <h3>Work Experience</h3>
-        <hr>
-        <table>
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2000-2010</td>
-                    <td>Job Title</td>
-                </tr>
-                <tr>
-                    <td>2010 - present</td>
-                    <td>Job Title</td>
-                </tr>
-            </tbody>
-            <tfoot>
-            </tfoot>
-        </table>
-    <br>
-    <a href="Hobbies/hobbies.html">Hobbies</a>
-    <br>
-    <a href="contact/contact_me.html">Contact Me</a>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Carl O'Brien</h1>
+        <!-- Navigation Menu (optional) -->
+        <!-- <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> -->
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Website</h2>
+            <p>I'm a web developer passionate about creating beautiful and functional websites.</p>
+            <a href="#portfolio" class="btn">View Portfolio</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum turpis eget justo placerat,
+                nec scelerisque lorem suscipit. Ut commodo consequat justo, non eleifend purus interdum id. Integer
+                sodales lorem sed lectus rhoncus aliquam.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript & jQuery</li>
+                <li>Responsive Web Design</li>
+                <li>PHP & MySQL</li>
+                <li>React.js & Node.js</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <div class="container">
+            <h3>Ready to Start Your Next Project?</h3>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h3>Contact Me</h3>
+            <p>If you have any questions or would like to discuss a project, feel free to get in touch!</p>
+            <!-- Contact Form (optional) -->
+            <!-- <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form> -->
+        </div>
+    </section>
+
+    <!-- Footer Section (optional) -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
 </body>
+
 </html>
